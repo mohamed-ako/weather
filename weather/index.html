@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="body">
+    <div class="span">
+    <h1>Weather</h1>
+<!-- <h1 class="city"></h1> -->
+
+    <div>
+    <input type="text" id="cityInput" placeholder="Enter city name" value="Al Hoceima">
+    <button onclick="getWeather()" id="getWeather">Get Weather</button>
+    <!-- <button onclick="color()">X</button> -->
+    <select name="color" placeholder="chose your color"id="color" value="color" class="color">
+        <option value="" disabled selected>color</option>
+        <option value="black">DARK</option>
+        <option value="white">LIGHT</option>
+
+        <!-- <option value="blue">blue</option>
+        <option value="pink">pink</option>
+        <option value="yellow">yellow</option>
+        <option value="green">green</option>
+
+        <option disabled >BG-color</option>
+
+        <option value="light">light</option>
+        <option value="dark">dark</option> -->
+
+    </select>
+</div>
+</div>
+
+    <div id="weatherData">
+        <main class="bigM"></main>
+        <main class="bigS"></main>
+    </div>
+
+    <script src="script3.js"></script>
+</div>
+</body>
+</html>
